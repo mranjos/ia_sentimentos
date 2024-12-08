@@ -43,7 +43,7 @@ def clean_code(code: str) -> str:
 def main():
     load_dotenv()
     st.title("Agente de IA")
-    st.header("Classificador de Produtos e Análise de Sentimentos")
+    st.header("Analista de Sentimentos de Texto.")
 
     # Upload do arquivo
     uploaded_file = st.file_uploader("Escolha um arquivo", type=["csv"])
